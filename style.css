@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color:white;
+    position: sticky;
+    z-index: 999;
+    width:100%;
+    height: 5dvh;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    padding: 1rem;
+}
+
+nav a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem; 
+    font-size: 20px;     
+    color:#427aa1;
+    text-decoration: none
+    
+}
