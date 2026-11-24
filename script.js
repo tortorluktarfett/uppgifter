@@ -1,8 +1,4 @@
-let showMenu = true;
-function init(){
-    document.getElementById("topMenuButton").onclick = showHideMenu;
-}
-
+//let showMenu = true;
 //function showHideMenu(){
  //   let topMenu = document.getElementById("topMenu");
 //    if(showMenu){
@@ -14,6 +10,10 @@ function init(){
 
 //    showMenu = !showMenu 
 //}
+
+function init(){
+    document.getElementById("topMenuButton").onclick = showHideMenu;
+}
 
 function showHideMenu(){
     let topMenu = document.getElementById("topMenu");
